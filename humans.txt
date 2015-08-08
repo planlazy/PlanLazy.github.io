@@ -3,7 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Co-Found: Dan BROOKS
+	Twitter: @danactive
+	From:Vancouver, British Columbia, Canada
 
 # THANKS
 
