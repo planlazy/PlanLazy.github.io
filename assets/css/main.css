@@ -95,7 +95,7 @@
 		}
 
 /* Icon */
-
+#logo-icon { display: inline-block; width: 85px; height: 85px; background-image: url("images/logo-icon-white-transparent.png"); background-repeat: no-repeat; background-size: 60px 60px; background-position: 30px 30px; }
 	.icon {
 		text-decoration: none;
 		position: relative;
@@ -853,7 +853,7 @@
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
-
+#logo-icon { background-size: 40px 40px; width: 63px; height: 63px; }
 		/* Basic */
 
 			body {
