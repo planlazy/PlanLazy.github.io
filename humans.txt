@@ -3,9 +3,9 @@
 
 # TEAM
 
-    Co-Found: Dan BROOKS
+    Co-Founder: Dan BROOKS
 	Twitter: @danactive
-	From:Vancouver, British Columbia, Canada
+	From: Vancouver, British Columbia, Canada
 
 # THANKS
 
@@ -14,4 +14,4 @@
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery
