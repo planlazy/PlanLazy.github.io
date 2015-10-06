@@ -7,6 +7,7 @@
   "scripts": {
     "build": "harp compile _travel-photos ./travel-photos",
     "sitemap": "sitemap-generator http://planlazy.com",
+    "start": "harp server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

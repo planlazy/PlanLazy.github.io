@@ -7,6 +7,8 @@
 1. Install project dependencies `npm install`
 
 ## Commands
+* Start web server
+	* Run `npm start` using harp
 * Compile and pre-process static asset sources
 	* Run `npm run build` using harp
 * Update SEO sitemap

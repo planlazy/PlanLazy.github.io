@@ -4,6 +4,10 @@
     "location": "Yerevan, Armenia",
     "title": "Folk Music in Yerevan, Armenia",
     "urn": "folk-music-yerevan-armenia",
-    "description": "Traditional folk art singing with kamancha, oud, and kanun instruments"
+    "description": "Traditional folk art singing with kamancha, oud, and kanun instruments",
+    "image": {
+      "width": 640,
+      "height": 640
+    }
   }
 }

@@ -4,6 +4,10 @@
     "location": "Klodzko, Poland",
     "title": "Cucumber Coffee cafe in Kłodzko, Poland",
     "urn": "cucumber-coffee-cafe-klodzko-poland",
-    "description": "Coffee with cucumber syrup is an unusual but splendid pairing at Biała Lokomotywa cafe in Nowa Ruda"
+    "description": "Coffee with cucumber syrup is an unusual but splendid pairing at Biała Lokomotywa cafe in Nowa Ruda",
+    "image": {
+      "width": 640,
+      "height": 640
+    }
   }
 }
