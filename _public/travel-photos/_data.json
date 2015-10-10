@@ -1,11 +1,34 @@
 {
   "cucumber-coffee-cafe-klodzko-poland": {
-    "title": "Cucumber Coffee cafe in Kłodzko, Poland"
+    "title": "Cucumber Coffee cafe in Kłodzko, Poland",
+    "subject": "Cucumber coffe cafe",
+    "location": "Klodzko, Poland",
+    "urn": "cucumber-coffee-cafe-klodzko-poland",
+    "description": "Coffee with cucumber syrup is an unusual but splendid pairing at Biała Lokomotywa cafe in Nowa Ruda",
+    "image": {
+      "width": 640,
+      "height": 640
+    }
   },
   "eat-street-rabbit-beijing-china": {
-    "title": "Eating Rabbit Head in the street of Beijing, China"
+    "title": "Eating Rabbit Head in the street of Beijing, China",
+    "subject": "Eating Rabbit Head in the street",
+    "location": "Beijing, China",
+    "urn": "eat-street-rabbit-beijing-china",
+    "description": "Adventurous foodies wanting a regional Chengdu specialty can try rabbit heads with Sichuan chili oil",
+    "youtube": {
+      "id": "fGSXo0o7e5Y"
+    }
   },
   "folk-music-yerevan-armenia": {
-    "title": "Folk Music in Yerevan, Armenia"
+    "title": "Folk Music in Yerevan, Armenia",
+    "subject": "Folk Music",
+    "location": "Yerevan, Armenia",
+    "urn": "folk-music-yerevan-armenia",
+    "description": "Traditional folk art singing with kamancha, oud, and kanun instruments",
+    "image": {
+      "width": 640,
+      "height": 640
+    }
   }
 }
