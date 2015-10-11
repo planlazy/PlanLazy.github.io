@@ -6,6 +6,7 @@
   },
   "scripts": {
     "build": "harp compile _public ./",
+    "lint": "gulp lint",
     "sitemap": "sitemap-generator http://planlazy.com",
     "start": "harp server",
     "test": "echo \"Error: no test specified\" && exit 1"
