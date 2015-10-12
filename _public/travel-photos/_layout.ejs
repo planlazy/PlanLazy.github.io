@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<% var it = public["travel-photos"]._data[current.path[1]] %><!DOCTYPE HTML>
 <!--
 	Identity by HTML5 UP
 	html5up.net | @n33co
@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Travel Photos - PlanLazy</title>
+		<title><%= it.title %> - PlanLazy</title>
 		<meta charset="utf-8" />
 		<meta name="apple-mobile-web-app-title" content="PlanLazy.com">
 		<meta name="application-name" content="PlanLazy.com">
@@ -19,10 +19,28 @@
 		<link type="text/plain" rel="author" href="http://PlanLazy.com/humans.txt" />
 		<meta name="p:domain_verify" content="dd2f670c287fc95ca2b98a5a47f599b1"/><!-- Pintrest pins our logo -->
 		<meta property="og:site_name" content="PlanLazy"/>
-		<meta property="og:url" content="http://planlazy.com/travel-photos/" />
-		<meta property="og:title" content="Travel Photos" />
-		<meta property="og:description" content="Inspirational photography from around the world, do you want to travel?" />
-		
+		<meta property="og:url" content="http://planlazy.com/travel-photos/<%= it.urn %>" />
+		<meta property="og:title" content="<%= it.title %>" />
+		<meta property="og:description" content="<%= it.description %>" />
+		<% if (it.image) { %><meta property="og:image" content="http://planlazy.com/travel-photos/<%= it.urn %>/<%= it.urn %>.jpeg" />
+		<meta property="og:image:url" content="http://planlazy.com/travel-photos/<%= it.urn %>/<%= it.urn %>.jpeg" />
+		<meta property="og:image:type" content="image/jpeg" /> 
+		<meta property="og:image:width" content="<%= it.image.width %>" />
+		<meta property="og:image:height" content="<%= it.image.height %>" />
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@PlanLazy">
+		<meta name="twitter:creator" content="@PlanLazy">
+		<meta name="twitter:title" content="<%= it.title %>">
+		<meta name="twitter:description" content="<%= it.description %>">
+		<meta name="twitter:image" content="http://planlazy.com/travel-photos/<%= it.urn %>/<%= it.urn %>.jpeg"><% } %><% if (it.youtube) { %><meta property="og:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/maxresdefault.jpg">
+		<meta property="og:image:secure_url" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/maxresdefault.jpg" />
+		<meta property="og:video" content="https://www.youtube.com/embed/<%= it.youtube.id %>" />
+		<meta property="og:video:secure_url" content="https://www.youtube.com/embed/<%= it.youtube.id %>" />
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@PlanLazy">
+		<meta name="twitter:title" content="<%= it.title %>">
+		<meta name="twitter:description" content="<%= it.description %>">
+		<meta name="twitter:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/maxresdefault.jpg"><% } %>
 		<meta property="fb:app_id" content="1481567445473126" />
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -52,13 +70,7 @@
 				<!-- Main -->
 					<section id="main">
 						<a href="/"><img src="/assets/travel-photos/images/logo-medium-600x72.png" id="logo"></a>
-						<h1>Travel Photos</h1>
-						<ul>
-							<li><a href="elephant-orphanage-sri-lanka">Pinnawala Elephant Orphanage, Sri Lanka</a></li>
-							<li><a href="cucumber-coffee-cafe-klodzko-poland">Cucumber Coffee cafe in Kłodzko, Poland</a></li>
-							<li><a href="eat-street-rabbit-beijing-china">Eating Rabbit Head in the street of Beijing, China</a></li>
-							<li><a href="folk-music-yerevan-armenia">Folk Music in Yerevan, Armenia</a></li>
-						</ul>
+						<%- yield %>
 					</section>
 
 				<!-- Footer -->
