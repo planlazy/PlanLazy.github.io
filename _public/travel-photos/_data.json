@@ -45,5 +45,10 @@
       "height": 640,
       "shape": "instagram"
     }
+  },
+  "index": {
+    "title": "Travel Photos",
+    "urn": "",
+    "description": "Inspirational photography from around the world, do you want to travel?"
   }
 }
