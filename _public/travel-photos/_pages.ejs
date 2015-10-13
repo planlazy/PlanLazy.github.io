@@ -1,7 +1,7 @@
-						<h1><%= subject %></h1>
+						<% var imgPath = image.path || urn %><h1><%= subject %></h1>
 						<h2><%= location %></h2>
 						<% if (image) { %>
-							<div id="photo" class="<%= image.shape %>" style="background-image: url('/travel-photos/<%= urn %>/<%= urn %>.jpeg');"><%= description %></div>
+							<div id="photo" class="<%= image.shape %>" style="background-image: url('/travel-photos/<%= urn %>/<%= imgPath %>.jpeg');"><%= description %></div>
 						<% } %>
 						<% if (youtube) { %>
 							<iframe id="video" src="https://www.youtube.com/embed/<%= youtube.id %>" frameborder="0" allowfullscreen></iframe>
