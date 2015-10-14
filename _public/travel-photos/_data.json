@@ -51,4 +51,14 @@
     "urn": "",
     "description": "Inspirational photography from around the world, do you want to travel?"
   }
-}
+},
+"mystery-of-japanese-onsen": {
+    "title": "Funny movie explaining how Japanese Onsen started and why it's beneficial",
+    "subject": "Funny movie explaining how Japanese Onsen started and why it's beneficial",
+    "location": "Japan",
+    "urn": "mystery-of-japanese-onsen",
+    "description": "Funny japaense movie explaining how Japaense onsen could have started and the benefits around it",
+    "youtube": {
+      "id": "MOmFSflNiQU"
+    }
+  },
