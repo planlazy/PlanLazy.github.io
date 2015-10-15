@@ -1,4 +1,17 @@
 {
+  "streamer-ooboke-koboke-river-japan": {
+    "title": "Windsocks over Oboke Gorge, Japan",
+    "subject": "Windy Karp Windsocks",
+    "location": "Ōboke Koboke, Tokushima, Japan",
+    "urn": "streamer-ooboke-koboke-river-japan",
+    "description": "Karp streamers over a river cruise with scenic rock formations.",
+    "image": {
+      "width": 1024,
+      "height": 768,
+      "shape": "tripadvisor",
+      "path": "koi-carp-yoshino-miyoshi-tokushima"
+    }
+  },
   "elephant-orphanage-sri-lanka": {
     "title": "Pinnawala Elephant Orphanage, Sri Lanka",
     "subject": "Bathing Parade of Elephants",
