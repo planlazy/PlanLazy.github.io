@@ -1,4 +1,27 @@
 {
+  "mystery-of-japanese-onsen": {
+    "title": "Funny movie about Japanese Onsen",
+    "subject": "Funny movie about Japanese Onsen",
+    "location": "Japan",
+    "urn": "mystery-of-japanese-onsen",
+    "description": "Funny japaense movie explaining how Japaense onsen could have started and the benefits around it",
+    "youtube": {
+      "id": "MOmFSflNiQU"
+    }
+  },
+  "streamer-ooboke-koboke-river-japan": {
+    "title": "Windsocks over Oboke Gorge, Japan",
+    "subject": "Windy Karp Windsocks",
+    "location": "Ōboke Koboke, Tokushima, Japan",
+    "urn": "streamer-ooboke-koboke-river-japan",
+    "description": "Karp streamers over a river cruise with scenic rock formations.",
+    "image": {
+      "width": 1024,
+      "height": 768,
+      "shape": "tripadvisor",
+      "path": "koi-carp-yoshino-miyoshi-tokushima"
+    }
+  },
   "elephant-orphanage-sri-lanka": {
     "title": "Bathing Elephant Herd, Sri Lanka",
     "subject": "Bathing Parade of Elephants",
