@@ -3,7 +3,7 @@
     "title": "Funny film about Public Bathing",
     "subject": "Thermae Romae video trailer",
     "location": "Japan",
-    "urn": "mystery-of-japanese-onsen",
+    "stem": "mystery-of-japanese-onsen",
     "description": "Funny Japaense movie explores Japaense onsen culture and Roman public bath tradition.",
     "youtube": {
       "id": "MOmFSflNiQU",
@@ -14,7 +14,7 @@
     "title": "Windsocks over Oboke Gorge, Japan",
     "subject": "Windy Karp Windsocks",
     "location": "Ōboke Koboke, Tokushima, Japan",
-    "urn": "streamer-ooboke-koboke-river-japan",
+    "stem": "streamer-ooboke-koboke-river-japan",
     "description": "Karp streamers over a river cruise with scenic rock formations.",
     "image": {
       "width": 1024,
@@ -27,7 +27,7 @@
     "title": "Bathing Elephant Herd, Sri Lanka",
     "subject": "Bathing Parade of Elephants",
     "location": "Pinnawala Elephant Orphanage, Sri Lanka",
-    "urn": "elephant-orphanage-sri-lanka",
+    "stem": "elephant-orphanage-sri-lanka",
     "description": "An impressive number of elephants interact socially and bathe in the river. A stop between Colombo, capital, and Kandy, UNESCO sacred Buddhist site.",
     "image": {
       "width": 1024,
@@ -40,7 +40,7 @@
     "title": "Cucumber Coffee cafe in Kłodzko, Poland",
     "subject": "Cucumber coffe cafe",
     "location": "Klodzko, Poland",
-    "urn": "cucumber-coffee-cafe-klodzko-poland",
+    "stem": "cucumber-coffee-cafe-klodzko-poland",
     "description": "Coffee with cucumber syrup is an unusual but splendid pairing at Biała Lokomotywa cafe in Nowa Ruda",
     "image": {
       "width": 640,
@@ -52,7 +52,7 @@
     "title": "Eating Rabbit Head in the street of Beijing, China",
     "subject": "Eating Rabbit Head in the street",
     "location": "Beijing, China",
-    "urn": "eat-street-rabbit-beijing-china",
+    "stem": "eat-street-rabbit-beijing-china",
     "description": "Adventurous foodies wanting a regional Chengdu specialty can try rabbit heads with Sichuan chili oil",
     "youtube": {
       "id": "fGSXo0o7e5Y",
@@ -63,7 +63,7 @@
     "title": "Folk Music in Yerevan, Armenia",
     "subject": "Folk Music",
     "location": "Yerevan, Armenia",
-    "urn": "folk-music-yerevan-armenia",
+    "stem": "folk-music-yerevan-armenia",
     "description": "Traditional folk art singing with kamancha, oud, and kanun instruments",
     "image": {
       "width": 640,
@@ -73,7 +73,7 @@
   },
   "index": {
     "title": "Travel Photos",
-    "urn": "",
+    "stem": "",
     "description": "Inspirational photography from around the world, do you want to travel?"
   }
 }

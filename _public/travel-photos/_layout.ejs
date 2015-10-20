@@ -1,4 +1,6 @@
-<% var it = public["travel-photos"]._data[current.path[1]] %><% var imgPath = it.image && it.image.path || it.urn %><!DOCTYPE HTML>
+<% var it = public["travel-photos"]._data[current.path[1]];
+var stem = (it.stem === "") ? "" : "/" + it.stem;
+var imgPath = (it.image && it.image.path) ? stem + "/" + it.image.path + ".jpeg" : stem + stem + ".jpeg"; %><!DOCTYPE HTML>
 <!--
 	Identity by HTML5 UP
 	html5up.net | @n33co
@@ -18,12 +20,13 @@
 		<noscript><link rel="stylesheet" href="/assets/travel-photos/css/noscript.css" /></noscript>
 		<link type="text/plain" rel="author" href="http://PlanLazy.com/humans.txt" />
 		<meta name="p:domain_verify" content="86ec9590fbc9564e89c84ba5e6629fef"/><% // Pintrest pin ref http://PlanLazy.com %>
-		<meta property="og:site_name" content="PlanLazy"/>
-		<meta property="og:url" content="http://planlazy.com/travel-photos/<%= it.urn %>" />
+		<meta property="og:site_name" content="PlanLazy travel"/>
+		<link rel="canonical" href="http://planlazy.com/travel-photos<%= stem %>" />
+		<meta property="og:url" content="http://planlazy.com/travel-photos<%= stem %>" />
 		<meta property="og:title" content="<%= it.title %>" />
 		<meta property="og:description" content="<%= it.description %>" />
-		<% if (it.image) { %><meta property="og:image" content="http://planlazy.com/travel-photos/<%= it.urn %>/<%= imgPath %>.jpeg" />
-		<meta property="og:image:url" content="http://planlazy.com/travel-photos/<%= it.urn %>/<%= imgPath %>.jpeg" />
+		<% if (it.image) { %><meta property="og:image" content="http://planlazy.com/travel-photos<%= imgPath %>" />
+		<meta property="og:image:url" content="http://planlazy.com/travel-photos<%= imgPath %>" />
 		<meta property="og:image:type" content="image/jpeg" /> 
 		<meta property="og:image:width" content="<%= it.image.width %>" />
 		<meta property="og:image:height" content="<%= it.image.height %>" />
@@ -32,7 +35,7 @@
 		<meta name="twitter:creator" content="@PlanLazy">
 		<meta name="twitter:title" content="<%= it.title %>">
 		<meta name="twitter:description" content="<%= it.description %>">
-		<meta name="twitter:image" content="http://planlazy.com/travel-photos/<%= it.urn %>/<%= imgPath %>.jpeg"><% } %><% if (it.youtube) { %><meta property="og:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.imgQuality %>.jpg">
+		<meta name="twitter:image" content="http://planlazy.com/travel-photos<%= imgPath %>"><% } %><% if (it.youtube) { %><meta property="og:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.imgQuality %>.jpg">
 		<meta property="og:image:secure_url" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.imgQuality %>.jpg" />
 		<meta property="og:video" content="https://www.youtube.com/embed/<%= it.youtube.id %>" />
 		<meta property="og:video:secure_url" content="https://www.youtube.com/embed/<%= it.youtube.id %>" />
