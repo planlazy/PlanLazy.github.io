@@ -6,7 +6,8 @@
     "urn": "mystery-of-japanese-onsen",
     "description": "Funny japaense movie explaining how Japaense onsen could have started and the benefits around it",
     "youtube": {
-      "id": "MOmFSflNiQU"
+      "id": "MOmFSflNiQU",
+      "imgQuality": "hqdefault"
     }
   },
   "streamer-ooboke-koboke-river-japan": {
@@ -54,7 +55,8 @@
     "urn": "eat-street-rabbit-beijing-china",
     "description": "Adventurous foodies wanting a regional Chengdu specialty can try rabbit heads with Sichuan chili oil",
     "youtube": {
-      "id": "fGSXo0o7e5Y"
+      "id": "fGSXo0o7e5Y",
+      "imgQuality": "maxresdefault"
     }
   },
   "folk-music-yerevan-armenia": {
