@@ -35,15 +35,18 @@ var imgPath = (it.image && it.image.path) ? stem + "/" + it.image.path + ".jpeg"
 		<meta name="twitter:creator" content="@PlanLazy">
 		<meta name="twitter:title" content="<%= it.title %>">
 		<meta name="twitter:description" content="<%= it.description %>">
-		<meta name="twitter:image" content="http://planlazy.com/travel-photos<%= imgPath %>"><% } %><% if (it.youtube) { %><meta property="og:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.imgQuality %>.jpg">
-		<meta property="og:image:secure_url" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.imgQuality %>.jpg" />
+		<meta name="twitter:image" content="http://planlazy.com/travel-photos<%= imgPath %>"><% } %><% if (it.youtube) { %><meta property="og:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.image.quality %>.jpg">
+		<meta property="og:image:type" content="image/jpeg" /> 
+		<meta property="og:image:width" content="<%= it.youtube.image.width %>" />
+		<meta property="og:image:height" content="<%= it.youtube.image.height %>" />
+		<meta property="og:image:secure_url" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.image.quality %>.jpg" />
 		<meta property="og:video" content="https://www.youtube.com/embed/<%= it.youtube.id %>" />
 		<meta property="og:video:secure_url" content="https://www.youtube.com/embed/<%= it.youtube.id %>" />
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@PlanLazy">
 		<meta name="twitter:title" content="<%= it.title %>">
 		<meta name="twitter:description" content="<%= it.description %>">
-		<meta name="twitter:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.imgQuality %>.jpg"><% } %>
+		<meta name="twitter:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.image.quality %>.jpg"><% } %>
 		<meta property="fb:app_id" content="1481567445473126" />
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">

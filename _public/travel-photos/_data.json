@@ -7,7 +7,11 @@
     "description": "Funny Japaense movie explores Japaense onsen culture and Roman public bath tradition.",
     "youtube": {
       "id": "MOmFSflNiQU",
-      "imgQuality": "hqdefault"
+      "image": {
+        "width": 480,
+        "height": 360,
+        "quality": "hqdefault"
+      }
     }
   },
   "streamer-ooboke-koboke-river-japan": {
@@ -56,7 +60,11 @@
     "description": "Adventurous foodies wanting a regional Chengdu specialty can try rabbit heads with Sichuan chili oil",
     "youtube": {
       "id": "fGSXo0o7e5Y",
-      "imgQuality": "maxresdefault"
+      "image": {
+        "width": 1024,
+        "height": 576,
+        "quality": "maxresdefault"
+      }
     }
   },
   "folk-music-yerevan-armenia": {
