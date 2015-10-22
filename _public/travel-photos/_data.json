@@ -1,4 +1,17 @@
 {
+  "symi-island-aegean-greece": {
+    "title": "Clock tower port side Symi, Greece",
+    "subject": "Clock tower overlooking Aegean Sea",
+    "location": "Symi, Rhodes, Greece",
+    "stem": "symi-island-aegean-greece",
+    "description": "Sea side view of Symi port, Dodecanese island chain off the coast of Turkey",
+    "image": {
+      "width": 1024,
+      "height": 768,
+      "shape": "tripadvisor",
+      "path": "clock-tower-sea-port-view-rhodes-region"
+    }
+  },
   "mystery-of-japanese-onsen-bath": {
     "title": "Funny film about Public Bathing",
     "subject": "Thermae Romae video trailer",
