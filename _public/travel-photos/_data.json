@@ -1,4 +1,17 @@
 {
+  "piran-terracotta-slovenia": {
+    "title": "View of red terracotta village Piran, Slovenia",
+    "subject": "Terracotta roofs overlooking Adriatic Sea",
+    "location": "Piran, Slovenia",
+    "stem": "piran-terracotta-slovenia",
+    "description": "Sun sets over the Gulf of Trieste and the village of Piran",
+    "image": {
+      "width": 640,
+      "height": 640,
+      "shape": "instagram",
+      "path": "gulf-trieste-istria-peninsula"
+    }
+  },
   "symi-island-aegean-greece": {
     "title": "Clock tower port side Symi, Greece",
     "subject": "Clock tower overlooking Aegean Sea",
