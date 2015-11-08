@@ -1,4 +1,17 @@
 {
+  "cuba-antique-motorcycle": {
+    "title": "Closeup of retro Harley-Davidson",
+    "subject": "Classic Harley-Davidson in UNESCO town",
+    "location": "Trinidad, Cuba",
+    "stem": "cuba-antique-motorcycle",
+    "description": "Colourful Spanish colonial architecture with yellow motocycle on cobblestone",
+    "image": {
+      "width": 1024,
+      "height": 768,
+      "shape": "tripadvisor",
+      "path": "trinidad-harley-davidson-cobblestone"
+    }
+  },
   "piran-terracotta-slovenia": {
     "title": "View of red terracotta village Piran, Slovenia",
     "subject": "Terracotta roofs overlooking Adriatic Sea",
