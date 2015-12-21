@@ -1,7 +1,4 @@
-<% var it = public[current.path[0]]._data[current.path[1]];
-var stem = (it.stem === "") ? "" : "/" + it.stem;
-var imgPath = (it.image && it.image.path) ? stem + "/" + it.image.path + ".jpeg" : stem + stem + ".jpeg";
-var seoFolder = current.path[0]; %><!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <!--
 	Identity by HTML5 UP
 	html5up.net | @n33co
@@ -9,7 +6,7 @@ var seoFolder = current.path[0]; %><!DOCTYPE HTML>
 -->
 <html>
 	<head>
-		<title><%= it.title %> - PlanLazy</title>
+		<title>Find out who irritates you in travel? - PlanLazy</title>
 		<meta charset="utf-8" />
 		<meta name="apple-mobile-web-app-title" content="PlanLazy.com">
 		<meta name="application-name" content="PlanLazy.com">
@@ -20,34 +17,13 @@ var seoFolder = current.path[0]; %><!DOCTYPE HTML>
 		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/travel-photos/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="/assets/travel-photos/css/noscript.css" /></noscript>
 		<link type="text/plain" rel="author" href="http://PlanLazy.com/humans.txt" />
-		<meta name="p:domain_verify" content="86ec9590fbc9564e89c84ba5e6629fef"/><% // Pintrest pin ref http://PlanLazy.com %>
+		<meta name="p:domain_verify" content="86ec9590fbc9564e89c84ba5e6629fef"/>
 		<meta property="og:site_name" content="PlanLazy travel"/>
-		<link rel="canonical" href="http://planlazy.com/<%=seoFolder%><%= stem %>" />
-		<meta property="og:url" content="http://planlazy.com/<%=seoFolder%><%= stem %>" />
-		<meta property="og:title" content="<%= it.title %>" />
-		<meta property="og:description" content="<%= it.description %>" />
-		<% if (it.image) { %><meta property="og:image" content="http://planlazy.com/<%=seoFolder%><%= imgPath %>" />
-		<meta property="og:image:url" content="http://planlazy.com/<%=seoFolder%><%= imgPath %>" />
-		<meta property="og:image:type" content="image/jpeg" /> 
-		<meta property="og:image:width" content="<%= it.image.width %>" />
-		<meta property="og:image:height" content="<%= it.image.height %>" />
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@PlanLazy">
-		<meta name="twitter:creator" content="@PlanLazy">
-		<meta name="twitter:title" content="<%= it.title %>">
-		<meta name="twitter:description" content="<%= it.description %>">
-		<meta name="twitter:image" content="http://planlazy.com/<%=seoFolder%><%= imgPath %>"><% } %><% if (it.youtube) { %><meta property="og:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.image.quality %>.jpg">
-		<meta property="og:image:type" content="image/jpeg" /> 
-		<meta property="og:image:width" content="<%= it.youtube.image.width %>" />
-		<meta property="og:image:height" content="<%= it.youtube.image.height %>" />
-		<meta property="og:image:secure_url" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.image.quality %>.jpg" />
-		<meta property="og:video" content="https://www.youtube.com/embed/<%= it.youtube.id %>" />
-		<meta property="og:video:secure_url" content="https://www.youtube.com/embed/<%= it.youtube.id %>" />
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@PlanLazy">
-		<meta name="twitter:title" content="<%= it.title %>">
-		<meta name="twitter:description" content="<%= it.description %>">
-		<meta name="twitter:image" content="https://i.ytimg.com/vi/<%= it.youtube.id %>/<%= it.youtube.image.quality %>.jpg"><% } %>
+		<link rel="canonical" href="http://planlazy.com/quiz/find-out-who-irritates-you-most-in-travel" />
+		<meta property="og:url" content="http://planlazy.com/quiz/find-out-who-irritates-you-most-in-travel" />
+		<meta property="og:title" content="Find out who irritates you in travel?" />
+		<meta property="og:description" content="Have you thought of traveling with friends? Do you want to stay friends after the trip, learn about which personality to avoid!" />
+		
 		<meta property="fb:app_id" content="1481567445473126" />
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -68,7 +44,7 @@ var seoFolder = current.path[0]; %><!DOCTYPE HTML>
 		<meta name="theme-color" content="#8ECC48">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="mobile-web-app-capable" content="yes">
-		<meta http-equiv="content-language" content="en"><% // Bing Search SEO Tip %>
+		<meta http-equiv="content-language" content="en">
 	</head>
 	<body class="is-loading">
 
@@ -78,7 +54,8 @@ var seoFolder = current.path[0]; %><!DOCTYPE HTML>
 				<!-- Main -->
 					<section id="main">
 						<a href="/"><img src="/assets/travel-photos/images/logo-medium-600x72.png" id="logo"></a>
-						<%- yield %>
+						<div class="quizz-container" data-width="100%" data-height="auto" data-quiz="119052"></div>
+<script src="//dcc4iyjchzom0.cloudfront.net/widget/loader.js" async></script>
 					</section>
 
 				<!-- Footer -->
