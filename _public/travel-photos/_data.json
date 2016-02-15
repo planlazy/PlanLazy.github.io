@@ -1,4 +1,17 @@
 {
+  "bird-rehabilitation-iguazu-misiones": {
+    "title": "Bird wildlife rescue",
+    "subject": "Tropical screech owl rehabilitation",
+    "location": "Puerto Iguazú, Misiones, Argentina",
+    "stem": "bird-rehabilitation-iguazu-misiones",
+    "description": "Güira Oga is home to tropical birds and other animals injured near Iguazú Falls",
+    "image": {
+      "width": 1024,
+      "height": 768,
+      "shape": "tripadvisor",
+      "path": "tropical-screech-owl-argentina"
+    }
+  },
   "tropicana-havana-cabaret-dancers": {
     "title": "Sexy cabaret showgirls legs",
     "subject": "Signer and dancers bums in Tropicana Club",
